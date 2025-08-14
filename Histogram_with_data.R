@@ -7,6 +7,7 @@ library(ggplot2)
 #Import data
 data("iris")
 
+#Plot data
 ggplot(iris, aes(x = Sepal.Length, fill = Species)) +
   geom_histogram(binwidth = 0.1,                #Thickness of bars
                  color = "black",               #Bar border colors
