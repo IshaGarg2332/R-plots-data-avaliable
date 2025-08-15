@@ -27,7 +27,7 @@ penguins %>%
        y = "Number of each species", 
        title = "Year vs Number of Each Species", 
        fill = "Species") +
-  #Change x-axis, y-axis, and title size
+  #Change text sizes
   theme(axis.text.x = element_text(size = 12),      # x-axis tick labels
         axis.text.y = element_text(size = 12),      # y-axis tick labels
         axis.ticks.length = unit(0.25, "cm"),       # length of ticks
